@@ -1,5 +1,22 @@
 body{
     margin: 0;
     padding: 0;
-} /* You can add global styles to this file, and also import other style files */
+}
+@media screen and (max-width: 400px) {
+    body{
+        font-size: 2em;   
+    }    
+    .container .container-button {
+        width: 1000px;
+    }
+}
 
+@media screen and (min-width: 401px) {
+    body{
+        font-size: 3em;
+    }
+    .container .container-button > buttom{
+        width: 300px;
+    } 
+}
+ 
